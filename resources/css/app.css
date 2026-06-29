@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ==========================
+   Portfolio Admin Theme
+========================== */
+
+input,
+textarea,
+select {
+    color: #f8fafc !important;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #94a3b8 !important;
+}
+
+input,
+textarea,
+select {
+    background-color: #1e293b !important;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    border-color: #2563eb !important;
+}
+
+.pagination nav {
+    display: flex;
+    justify-content: center;
+}
+
+.pagination svg {
+    width: 18px;
+    height: 18px;
+}

@@ -1,0 +1,18 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class ProjectVideo extends Model
+{
+    protected $fillable = [
+        'project_id',
+        'video'
+    ];
+
+    public function project()
+    {
+        return $this->belongsTo(Project::class);
+    }
+}
